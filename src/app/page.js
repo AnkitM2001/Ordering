@@ -9,6 +9,13 @@ export default function Home() {
       <Header />
       <Hero />
       <HomeMenu />
+
+      <section>
+        <sectionHeaders
+        subHeader={'Our story'}
+        mainHeader={'About us'}
+        />
+      </section>
     </>
   )
 }
